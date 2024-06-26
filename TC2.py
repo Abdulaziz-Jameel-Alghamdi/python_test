@@ -5,7 +5,7 @@
 
 
 import unittest
-from your_module import ProductFactory, get_product_by_id, update_product, delete_product, list_all_products, find_products_by_name, find_products_by_category, find_products_by_availability
+# from your_module import ProductFactory, get_product_by_id, update_product, delete_product, list_all_products, find_products_by_name, find_products_by_category, find_products_by_availability
 
 class TestProductFunctions(unittest.TestCase):
 
