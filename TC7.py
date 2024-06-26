@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-# Example: Using Selenium WebDriver for web automation
+# Example: Using Selenium WebDriver for web automation#
 @given('I have navigated to the homepage')
 def step_impl(context):
     context.driver = webdriver.Chrome()  # Initialize WebDriver (Chrome in this case)
