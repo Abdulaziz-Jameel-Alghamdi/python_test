@@ -28,3 +28,4 @@ if __name__ == "__main__":
     products = ProductFactory.create_batch(10)
     for p in products:
         print(p)
+#

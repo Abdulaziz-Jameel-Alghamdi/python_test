@@ -63,3 +63,4 @@ if __name__ == "__main__":
     # Deleting a product
     product_service.delete_product(2)
     print("After deletion:", product_service.list_all_products())
+#
