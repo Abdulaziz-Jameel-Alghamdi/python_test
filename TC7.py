@@ -11,7 +11,7 @@ def step_impl(context):
     context.driver = webdriver.Chrome()  # Initialize WebDriver (Chrome in this case)
     context.driver.get("http://localhost:8000")  # Replace with your application's URL
     time.sleep(2)  # Example: Wait for page to load
-
+#
 @when('I click on the login button')
 def step_impl(context):
     login_button = context.driver.find_element_by_id('login_button')  # Example: Locate login button element
